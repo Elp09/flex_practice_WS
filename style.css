@@ -38,12 +38,13 @@ body {
   justify-content: center;
   gap: 48px;
   padding: 96px;
-  align-items: stretch;
+  align-items: center;
 }
 
 .header-text {
   width: 35%;
   margin: 0;
+  padding: 0;
 }
 
 .header-img {
@@ -51,6 +52,7 @@ body {
   background-color: gray;
   border: black;
   height: auto;
+  min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,6 +66,12 @@ h1 {
 
 .header-text p {
   font-size: 18px;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -74,4 +82,27 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.header-text button {
+  margin-top: 10px;
+  border-style: none;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  display: flex;
 }
