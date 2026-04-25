@@ -141,13 +141,60 @@ h2 {
 }
 
 .quote-section {
-  max-width: 70%;
+  max-width: 45%;
+  color: #1f2937;
 }
 
 .quote {
-  text-align: center;
+  text-align: left;
+  font-weight: 300;
+  font-size: 36px;
 }
 
 .quote-author {
+  margin-top: 5px;
   text-align: right;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.action-section {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.action {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 50px;
+  min-width: 50%;
+}
+
+.text p {
+  font-weight: 300;
+}
+
+.action button {
+  border: 2px solid white;
+  background-color: #3882f6;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
 }
